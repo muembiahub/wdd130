@@ -2,19 +2,19 @@
     --primary-color: #a1cc16;
     --secondary-color: #cfc9ed;
     --accent1-color: #fef3e0;
-    --Accent2-color : #cdfad4;
+    --Accent2-color : #46d3d6;
 
 }
 body {
     font-family: var(--Accent2-color);
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: var(--primary-color);
     color: #333;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: #040000;
     padding: 10px 0;
 
