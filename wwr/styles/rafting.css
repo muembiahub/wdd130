@@ -1,12 +1,12 @@
 :root{
-    ---primary-color: #a1cc16;
-    ---secondary-color: #cfc9ed;
-    ---accent1-color: #fef3e0;
-    ---Accent2-color : #cdfad4;
+    --primary-color: #a1cc16;
+    --secondary-color: #cfc9ed;
+    --accent1-color: #fef3e0;
+    --Accent2-color : #cdfad4;
 
 }
 body {
-    font-family: var(----Accent2-color);
+    font-family: var(--Accent2-color);
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
