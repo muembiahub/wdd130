@@ -1,6 +1,11 @@
-nav {
-  background-color: darkblue;
-  padding: 10px;
+.contenaire {
+  background-color: steelblue;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+
 }
 nav a {
   color: white;
@@ -8,7 +13,8 @@ nav a {
   padding: 20px;
 }
 h1 {
-  color: darkblue;
+  color: steelblue;
+  border-bottom: #000;
 }
 img {
   width: 150px;
@@ -20,7 +26,6 @@ img {
 p {
   padding: 0;
 }
-le
 aside {
   width: 20rem;
   margin: 1rem;
@@ -35,22 +40,21 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
- footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-  }
-  main img {
+
+main img {
     width: 150px;
     height: auto;
-  }
-  aside img {
+}
+aside img {
     width: 200px;
     height: auto;
-  }
-  ple
-main {
-  max-width: 840px;
 }
-  
+main, footer, header{
+  max-width: 840px;
+  margin: 0 auto;
+}
+.contenaire a{
+  text-decoration: none;
+}
+
   

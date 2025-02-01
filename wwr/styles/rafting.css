@@ -17,6 +17,10 @@ header {
     background-color: var(--accent1-color);
     color: #040000;
     padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
 
 }
 
@@ -25,6 +29,7 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
 }
+
 
 .hero {
     position: relative;
@@ -98,5 +103,107 @@ article img{
     float: right;
 }
 h1, h2, h3 { 
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+}  
+
+header {  
+    display: grid;  
+    grid-template-columns: auto 1fr;  
+    align-items: center;  
+    background: #007BFF;  
+    color: white;  
+    padding: 10px 20px;  
+}  
+
+.logo {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.logo img {  
+    height: 50px; /* Adjust as needed */  
+    margin-right: 10px;  
+}  
+
+nav ul {  
+    display: flex;  
+    list-style: none;  
+    justify-content: flex-end; /* Aligns items to the right */  
+}  
+
+nav ul li {  
+    margin-left: 20px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav ul li a:hover {  
+    text-decoration: underline;  
+}  
+
+.history {  
+    padding: 20px;  
+    background-color: #f8f9fa;  
+}  
+
+.adventures {  
+    padding: 20px;  
+    background-color: #e9ecef;  
+}  
+
+.adventure-gallery {  
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 10px; /* Adds space between figures */  
+}  
+
+.adventure-gallery figure {  
+    flex: 1 1 calc(20% - 10px);  
+    text-align: center;  
+}  
+
+.adventure-gallery img {  
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 8px;  
+}  
+
+figcaption {  
+    margin-top: 8px;  
+    font-weight: bold;  
+}  
+
+footer {  
+    padding: 20px;  
+    background-color: #007BFF;  
+    color: white;  
+    text-align: right; /* Aligns text to the right */  
+}  
+
+.social-icons {  
+    display: flex;  
+    justify-content: flex-end; /* Aligns social icons to the right */  
+}  
+
+.social-icons a {  
+    margin-left: 15px; /* Space between icons */  
+}  
+
+.social-icons img {  
+    height: 30px; /* Adjust the size of the icons */  
 }
