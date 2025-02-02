@@ -12,18 +12,6 @@ body {
     background-color: var(--primary-color);
     color: #333;
 }
-
-header {
-    background-color: var(--accent1-color);
-    color: #040000;
-    padding: 10px 0;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-
-
-}
-
 nav a {
     color: #0b0101;
     text-decoration: none;
