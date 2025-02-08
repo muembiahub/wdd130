@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact us page</title>
+    <meta name="description" content="Contact us page for Kinshasa Whitewater Rafting. Get in touch with us for any inquiries or to book your rafting adventure.">
+    <meta name="author" content="Jonathan M. Muembia">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700;900&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/z-therapidssplash.jpg" alt="Rafting Website Images" width="100">
+        </div>
+        <nav>
+            <ul>
+               <li> <a href="index.html">Home</a></li>
+               <li><a href="about.html"> About Us </a></li>
+               <li><a href="trips.html"> trips </a></li>
+               <li><a href="contact.html"> Contact Us </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+    <div class="contact-info">
+        <h1>Contact Us</h1>
+        <p>For inquiries or to book your rafting adventure, please contact us using the information below:</p>
+        <ul>
+            <li> <a href="jonathanmuembia3@gmail.com"> Email Us</a></li>
+            <li> <a href="tel:1-800-555-1234"> Call Us</a></li>
+        </ul>
+        <h2>Location</h2>
+        <p> Kinshasa Whitewater Rafting <br>
+            123 Congo River Road <br>
+            Kinshasa, Democratic Republic of the Congo <br>
+            12345
+        </p>
+        <iframe src="https://maps.app.goo.gl/vmMU4sC33YZvnsdC6" width="50" style="border: 0;" height="50"></iframe>
+    </div>
+
+    <form action="input">
+        <fieldset>
+            <legend> Contact Form</legend>
+            <label for="fullname"> Full Name </label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="emailadress"> User Email</label>
+            <input type="text" id="UserEmail" name="Useremail" required>
+            <label for="phone"> Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="subject"> Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+
+            <label for="message"> Message</label>
+            <p>The purpose of the Message:</p>
+            <input type="radio" id="generalInquiry" name="messageType" value="General Inquiry">
+            <label for="generalInquiry">General Inquiry</label><br>
+             <input type="radio" id="reservationQuestion" name="messageType" value="Reservation Question">
+            <label for="reservationQuestion">Reservation Question</label><br>
+             <input type="radio" id="websiteSuggestion" name="messageType" value="Website Suggestion">
+            <label for="websiteSuggestion">Website Suggestion</label><br><br>
+  
+            <label for="message">The message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+  
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+  
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    </main>
+     <footer>
+        <nav class="social-icons">
+            <p>&copy; 2025, Kinshasa Whitewater Rafting, Jonathan M. Muembia, Lubumbashi, Democratic Republic of the Congo.</p>
+            <a href="https://www.facebook.com" target="_blank"> Facebook <img src="images/facebook.webp" alt="Facebook"></a> 
+            <a href="https://www.twitter.com" target="_blank">Twitter <img src="images/twiter.webp" alt="Twitter"></a>
+            <a href="https://www.whatsapp.com" target="_blank"> Instagram <img src="images/whatsapp.webp" alt="Instagram"></a>
+                
+           
+        </nav>
+     </footer>
+</body>
+</html>

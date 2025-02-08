@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+h1{
+    color: steelblue;
+    border-bottom: 1px solid #291818;
+    margin-bottom: 15px;
+
+}
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+legend{
+    font-size: 1.2em;
+   color: rgb(180, 70, 92);
+   border-bottom: 1px solid #291818;
+}
+input, select, textarea{/
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

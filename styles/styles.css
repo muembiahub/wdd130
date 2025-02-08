@@ -12,9 +12,10 @@ nav a {
   display: block;
   padding: 20px;
 }
-h1 {
+h1, h2{
   color: steelblue;
-  border-bottom: #000;
+  border-bottom: 1px solid #291818;
+  margin-bottom: 15px;
 }
 img {
   width: 150px;
@@ -31,9 +32,10 @@ aside {
   margin: 1rem;
   border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
   padding: 1rem;
-  background-color: #eee;
+  background-color: #e5dfed;
   color: #333;
   text-align: center;
+  
 }
 footer {
   margin-top: 15px;
@@ -56,5 +58,10 @@ main, footer, header{
 .contenaire a{
   text-decoration: none;
 }
-
-  
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 10px;
+  padding: 11px;
+  background-color: rgb(77, 241, 241);
+}

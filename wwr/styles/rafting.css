@@ -106,9 +106,8 @@ body {
 }  
 
 header {  
-    display: grid;  
-    grid-template-columns: auto 1fr;  
-    align-items: center;  
+    display:flex; 
+    justify-content: space-between; 
     background: #007BFF;  
     color: white;  
     padding: 10px 20px;  
