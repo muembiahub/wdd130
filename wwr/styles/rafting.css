@@ -87,7 +87,8 @@ article img{
     float: right;
 }
 h1, h2, h3 { 
-    font-family: 'Merriweather', serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 * {  
     box-sizing: border-box;  
@@ -200,4 +201,12 @@ figcaption {
 .tags ol, .social-icons ol, .about ol {
     list-style-type: none;
     padding-left: 0;
+}
+.contact-info h2, .phone-email h2{
+    text-align:start;
+   
+}
+.contact-info, .phone-email{
+    border: solid 1px var(--primary-color);
+    font-family: var(--Accent2-color);
 }
