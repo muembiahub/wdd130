@@ -56,8 +56,8 @@ article img {
 footer {
     background-color: var(--secondary-color);
     color: #1e0404;
-    padding: 40px 0;
-    border: 1px solid #000;
+    padding: 10px 0;
+    border-top: 1px solid #000;
 }
 
 footer a {
@@ -193,10 +193,12 @@ figcaption {
     align-items: center;
     flex-direction: row;
     padding: 0px;
-    gap: 100px;
+    gap: 45px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.tags ol, .social-icons ol, .about ol .phone-email ul{
+.tags ol, .social-icons ol, .about ol{
     list-style-type: none;
+    padding-left: 0;
 }
 .contenaire1{
     display: flex;
@@ -204,9 +206,10 @@ figcaption {
     align-items: flex-start;
     flex-direction: row;
     padding: 0px;
-    gap: 100px;
+    gap: 60px;
 }
 .contact-info, .phone-email{
     border: solid 1px var(--primary-color);
-    background-color: rgb(209, 186, 186);
+    background-color: rgb(246, 241, 241);
+    padding: 20px;
 }
