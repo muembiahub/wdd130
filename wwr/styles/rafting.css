@@ -69,14 +69,12 @@ footer a {
 
 footer a img {
     width: 16px;
-    vertical-align: middle;
 }
 
 /* Specific selector to remove underlines from social media links */
-footer a img {
+footer a[href^="https://"] {
     text-decoration: none;
 }
-
 section {
     padding: 20px;
 }
@@ -173,22 +171,6 @@ figcaption {
     margin-top: 8px;  
     font-weight: bold;  
 }  
-
-footer {  
-    justify-content: center;
-    padding: 40px;  
-    background-color: #007BFF;  
-    color: white;  
-
-}  
-.social-icons {  
-    display: grid;  
-    justify-content: flex-end;  
-    margin-bottom: 20px;  
-}
-.social-icons img {  
-    height: 20px; /* Adjust the size of the icons */  
-}
 .happy-working{
     background-color: var(--accent1-color);
     padding: 20px;
@@ -205,4 +187,17 @@ footer {
     font-size: 1.5em;
     color: var(--primary-color);
     text-align: center;
+}
+.contenaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 20px;
+    
+
+}
+.tags ol, .social-icons ol, .about ol {
+    list-style-type: none;
+    padding-left: 0;
 }
