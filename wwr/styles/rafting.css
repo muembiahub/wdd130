@@ -9,8 +9,6 @@ body {
     font-family: var(--Accent2-color);
     margin: 0;
     padding: 0;
-    background-color: var(--primary-color);
-    color: #333;
 }
 nav a {
     color: #0b0101;
@@ -92,7 +90,6 @@ article img{
 }
 h1, h2, h3 { 
     font-family: 'Merriweather', serif;
-    text-align: center;
 }
 * {  
     box-sizing: border-box;  
@@ -102,7 +99,8 @@ h1, h2, h3 {
 
 body {  
     font-family: Arial, sans-serif;  
-    line-height: 1.6;  
+    line-height: 1.6; 
+    background-color: var(--accent1-color); 
 }  
 
 header {  
@@ -124,9 +122,10 @@ header {
 }  
 
 nav ul {  
-    display: flex;  
+    display: grid;  
     list-style: none;  
-    justify-content: flex-end; /* Aligns items to the right */  
+    grid-template-columns: repeat(4, auto);
+    font-family: 'Times New Roman', Times, serif; 
 }  
 
 nav ul li {  
@@ -176,21 +175,34 @@ figcaption {
 }  
 
 footer {  
-    padding: 20px;  
+    justify-content: center;
+    padding: 40px;  
     background-color: #007BFF;  
     color: white;  
-    text-align: right; /* Aligns text to the right */  
-}  
 
+}  
 .social-icons {  
-    display: flex;  
-    justify-content: flex-end; /* Aligns social icons to the right */  
-}  
-
-.social-icons a {  
-    margin-left: 15px; /* Space between icons */  
-}  
-
+    display: grid;  
+    justify-content: flex-end;  
+    margin-bottom: 20px;  
+}
 .social-icons img {  
-    height: 30px; /* Adjust the size of the icons */  
+    height: 20px; /* Adjust the size of the icons */  
+}
+.happy-working{
+    background-color: var(--accent1-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.happy-working img{
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.happy-working h2{
+    font-size: 1.5em;
+    color: var(--primary-color);
+    text-align: center;
 }
