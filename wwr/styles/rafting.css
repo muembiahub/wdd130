@@ -213,3 +213,12 @@ figcaption {
     background-color: rgb(246, 241, 241);
     padding: 20px;
 }
+.contact-info h2, .phone-email h2{
+    color: var(--primary-color);
+    font-size: 1.5em;
+    text-align: center;
+}
+.contact-info p{
+    font-size: 1.2em;
+    text-align: center;
+}
