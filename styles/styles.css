@@ -14,9 +14,10 @@ nav a {
 }
 h1, h2{
   color: steelblue;
-  border-bottom: 1px solid #291818;
+  border-bottom: 1px solid #291818; 
   margin-bottom: 15px;
 }
+/* Path: styles/styles.css  to add  */
 img {
   width: 150px;
   height: auto;
@@ -46,6 +47,7 @@ footer {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 aside img {
     width: 200px;
