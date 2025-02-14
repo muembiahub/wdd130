@@ -159,7 +159,8 @@ figcaption {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center; 
+    gap: 20px;   
 }
 .happy-working img{
     width: 140px;
@@ -189,14 +190,14 @@ figcaption {
     justify-content:space-around;
     align-items: flex-start;
     flex-direction: row;
-    padding: 0px;
+    padding: 0.2rem;
     gap: 10px;
 }
 .contact-info, .phone-email{
     border: solid 2px var(--primary-color);
     background-color: rgb(246, 241, 241);
-    padding: 1rem;
-    margin: 2rem;
+    padding: 2rem;
+    margin: 1rem;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -208,6 +209,12 @@ figcaption {
 .contact-info p{
     font-size: 1.2em;
     text-align: center;
+}
+.contact-form{
+    background-color: rgb(246, 241, 241);
+    padding: 0.2rem;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 article img{
     float: right;
