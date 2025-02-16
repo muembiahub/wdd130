@@ -153,25 +153,7 @@ nav ul li a:hover {
 figcaption {  
     margin-top: 8px;  
     font-weight: bold;  
-}  
-.happy-working{
-    background-color: var(--accent1-color);
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    gap: 20px;   
-}
-.happy-working img{
-    width: 140px;
-    border-radius: 20%;
-    margin-right: 40px;
-}
-.happy-working h2{
-    font-size: 1.5em;
-    color: var(--primary-color);
-    text-align: center;
-}
+} 
 .contenaire{
     display: flex;
     justify-content: space-around;
