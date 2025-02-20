@@ -1,10 +1,10 @@
-<!DOCTYPE html><!-- The DOCTYPE declaration defines the document type and version of HTML -->
-<html lang="en-US"><!-- The language of the document -->
-<head><!-- The head element contains meta-information about the document -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head> <!-- The head element contains meta-information about the document -->
     <meta charset="UTF-8"> <!-- The character encoding of the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- The viewport meta tag controls the layout on different devices -->
-    <title>Jonathan M. Muembia  WDD 130</title> <!-- The title element defines the title of the document -->
-    <meta name="description" content="Jonathan M. Muembia's personal website for WDD 130 course, showcasing web development skills and projects."> <!-- The meta description tag provides a brief description of the document -->
+    <title> Home page Whitewater Kinshasa</title> <!-- The title element defines the title of the document -->
+    <meta name="description" content="Welcome to Kinshasa Whitewater Rafting. Explore our exciting rafting trips, learn about our team, and discover the beauty of the Congo River.">
     <meta name="author" content="Jonathan M. Muembia"> <!-- The meta author tag provides the author of the document -->
     <link rel="stylesheet" href="styles/rafting.css"> <!-- The link element is used to link external resources such as stylesheets -->
 </head> <!-- end of head -->
@@ -31,29 +31,56 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/rafting58_600.webp" alt="Rafting Website Images" width="16">
-            <h1>Jonathan M. Muembia |WDD 130</h1>
+            <img src="images/rafting58_600.webp" alt="Rafting Website Images" width="200">
+            <h1> Kinshasa Whitewater Rafting</h1>
         </div>
         <article>
-        <img src="/images/profile.jpg" alt="Jonathan M. Muembia" width="200" height="200">
-        <p>My name is Jonathan M. Muembia. I am a web developer with a passion for creating interactive and user-friendly websites. I have experience in HTML, CSS, and JavaScript, and I enjoy learning new technologies and improving my skills. I am currently studying web development at BYU-Idaho, where I am expanding my knowledge in various web technologies and working on exciting projects. In my free time, I enjoy exploring new web design trends, contributing to open-source projects, and connecting with other developers in the community. I am always eager to take on new challenges and grow as a developer.</p>
+            <img src="images/happy-working-employee.webp" alt="Happy Working Employee" width="200">
+            <h2> Welcome to Kinshasa Whitewater Rafting</h2>
+            <p> Kinshasa Whitewater Rafting offers thrilling rafting adventures on the Congo River. Our experienced guides will take you on an unforgettable journey through the rapids, providing an exciting and safe experience for all skill levels. Whether you're a beginner or an experienced rafter, we have the perfect trip for you. Join us for an adventure of a lifetime!</p>
         </article>
-        <ol class="box">
-            <h2>Temple of The LDS Church </h2>
-         <li><a href="https://www.churchofjesuschrist.org/imgs/7210c09be95c4474772ae52e5f31c23c08112784/full/800%2C/0/default" target="_blank">Aba Nigeria Temple</a></li>
-         <li> <a href="https://churchofjesuschrist.org/imgs/4fbff8f9b4d4bc10041f52b7de02d507c07a2d1c/full/800%2C/0/default" target="_blank"> Abidjan Ivory Coast Temple </a> </li>
-         <li> <a href="https://www.churchofjesuschrist.org/imgs/34410870d7d011ed8402eeeeac1ec672bdc0ce45/full/800%2C/0/default"  target="_blank"> Bentonville Arkansas Temple</a></li>
-         <li> <a href="https://www.churchofjesuschrist.org/imgs/4f3b3b3b4b4d4bc10041f52b7de02d507c07a2d1c/full/800%2C/0/default" target="_blank"> Durban South Africa Temple</a></li>
-        </ol>
+            <h2>Featured Trips</h2>
+    <aside class="featured-trips">
+        <div class="trip1">
+            <img src="images/beginner.webp" alt="Beginner Rafting Trip" width="200">
+            <h3>Beginner Rafting Trip</h3>
+            <p>Perfect for first-timers, this trip offers a gentle introduction to whitewater rafting. Enjoy the scenic beauty of the Congo River while navigating mild rapids with our experienced guides.</p>
+        </div>
+        <div class="trip2">
+            <img src="images/intermedaire.webp" alt="Intermediate Rafting Trip" width="200">
+            <h3>Intermediate Rafting Trip</h3>
+            <p>For those with some rafting experience, this trip provides a thrilling adventure with moderate rapids. Experience the excitement of the Congo River's dynamic waters.</p>
+        </div>
+        <div class="trip3">
+            <img src="images/advanced.webp" alt="Advanced Rafting Trip" width="200">
+            <h3>Advanced Rafting Trip</h3>
+            <p>For experienced rafters seeking a challenge, this trip offers an adrenaline-pumping adventure through the Congo River's most intense rapids. Are you ready to take on the ultimate whitewater challenge?</p>
+
+        </div>
+
+    </aside>
+    <form class="login" action="login.php" method="post">
+        <h2>Sign in </h2>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="PassWord">PassWord:</label>
+        <input type="password" id="PassWord" name="PassWord" required> <br>           
+        <button type="submit">Connexion</button>
+
+    </form>
+
+    <section>
+        <div class="cta">
+        <h2> Adventure Awaits You!</h2>
+        <p>Join us for an unforgettable rafting experience on the Congo River. Our experienced guides will take you on a thrilling journey through the rapids, providing an exciting and safe adventure for all skill levels. Whether you're a beginner or an experienced rafter, we have the perfect trip for you. Book your adventure today and get ready for the thrill of a lifetime!</p>
+        <a href="trips.html" class="button">Book Now</a>
+        </div>
+
+    </section>
     </main>
-    <aside class="box">
-        <h2>Lubumbashi, Democratic Republic of the Congo </h2>
-        <img src="/images/flag_drc.png" alt="Flag of the Democratic Republic of the Congo" width="200">
-        <p>The Democratic Republic of the Congo is a country located in Central Africa. It is the second-largest country in Africa by area and the eleventh-largest in the world. The country is known for its rich natural resources, including minerals such as cobalt and copper. The Congo River, the second-longest river in Africa, flows through the country, providing a vital waterway for transportation and trade. Despite its natural wealth, the country faces challenges such as political instability and poverty. The capital city is Kinshasa, which is also the largest city in the country. <br>
-        The country has a diverse culture with over 200 ethnic groups and numerous languages spoken. French is the official language, while Lingala, Swahili, Kikongo, and Tshiluba are also widely spoken. The country's music, particularly soukous, has gained international recognition. The wildlife in the Congo Basin, including gorillas, elephants, and okapis, is also notable. Conservation efforts are ongoing to protect these species and their habitats.
-        </p>
-    </aside> 
     <footer>
+
         <nav class="contenaire">
            <div class="company">
             <h2> Kinshasa Whitewater Rafting</h2>
